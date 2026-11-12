@@ -1,16 +1,16 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.time.LocalDateTime;
+import javax.swing.*;
 
 /**
- * La interfaz gráfica (GUI) hecha con Swing, con colores y diseño más amigable.
+ * La interfaz gráfica (GUI) hecha con Swing, con colores y diseño amigables.
  * Conceptos POO: herencia (extends JFrame), clases internas, eventos (listeners).
  */
 public class VentanaPrincipal extends JFrame {
 
-    // Paleta de colores (puedes cambiarlos a tu gusto)
+    // Paleta de colores 
     private static final Color AZUL = new Color(0x4F6BED);
     private static final Color FONDO = new Color(0xF5F6FA);
     private static final Color TEXTO = new Color(0x2D3436);
