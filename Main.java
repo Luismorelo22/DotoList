@@ -11,6 +11,7 @@ public class Main {
         SwingUtilities.invokeLater(Main::iniciar);
     }
 
+        
     private static void iniciar() {
         GestorTareas gestor = new GestorTareas();
         VentanaPrincipal ventana = new VentanaPrincipal(gestor);
